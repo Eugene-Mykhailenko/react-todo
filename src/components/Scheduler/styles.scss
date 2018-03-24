@@ -16,14 +16,13 @@
         max-height: 90vh;
         max-width: 90vw;
         background-color: $paletteColor4;
-        border-radius: 1rem;
+        border-radius: .4rem;
         box-shadow: 0 0.6rem 1.4rem 0.1rem $rgbaColor2;
 
         input:not([type='checkbox']) {
             height: 4.2rem;
             padding: 0 1.4rem;
             caret-color: $paletteColor3;
-            border-radius: 0.5rem;
             border-width: 0.1rem;
             border-style: solid;
             border-color: $paletteColor6;
@@ -82,7 +81,6 @@
                 button {
                     width: 21.5rem;
                     height: 4.2rem;
-                    border-radius: 0.5rem;
                     background-color: $paletteColor3;
                     font-size: 1.8rem;
                     letter-spacing: .1rem;
@@ -101,7 +99,7 @@
                 list-style: none;
                 margin: 0;
                 padding: 0;
-                max-height: 37rem;
+                height: 37rem;
                 overflow: scroll;
             }
         }
@@ -114,7 +112,7 @@
                 cursor: pointer;
             }
 
-            & code {
+            & div {
                 font-size: 2rem;
                 letter-spacing: .1rem;
                 color: $paletteColor7;
