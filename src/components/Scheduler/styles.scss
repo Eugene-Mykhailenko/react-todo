@@ -120,3 +120,31 @@
         }
     }
 }
+
+
+.taskInStart {
+    opacity: 0;
+    height: 0 !important;
+    margin: 0 !important;
+    transition: all 0.5s ease;
+}
+.taskInEnd {
+    opacity: 1;
+    margin: 10px 0 !important;
+    height: 61px !important;
+    transition: 0.5s ease;
+}
+
+.taskOutStart {
+    opacity: 1;
+    margin: 10px 0 !important;
+    height: 61px !important;
+    transition: 0.5s ease;
+}
+
+.taskOutEnd {
+    opacity: 0;
+    height: 0 !important;
+    margin: 0 !important;
+    transition: all 0.5s ease;
+}

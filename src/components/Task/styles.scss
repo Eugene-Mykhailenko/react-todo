@@ -4,15 +4,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 6.1rem;
-    margin: 1.3rem 0 0;
-    margin-bottom: 1.3rem;
-    padding: 1.8rem;
+    height: 61px;
+    margin: 10px 0;
+    padding: 0 1.8rem;
     letter-spacing: 0.1rem;
     background-color: $paletteColor2;
     box-shadow: 0 0.2rem 0.6rem $rgbaColor1;
     font-size: 2rem;
     font-weight: 400;
+    overflow: hidden;
 
     & div span {
         cursor: pointer;
@@ -31,6 +31,8 @@
         & input {
             width: 100%;
             border: 0;
+            border-bottom: 1px solid ;
+            padding-left: 0;
         }
     }
 
