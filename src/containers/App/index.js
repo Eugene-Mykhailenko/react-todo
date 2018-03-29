@@ -6,8 +6,8 @@ import { string } from 'prop-types';
 import Scheduler from 'components/Scheduler';
 
 const options = {
-    api:   'https://lab.lectrum.io/hw/todo/api/',
-    token: 'tOvQ62e7ytxuhCWn',
+    api:   '',
+    token: '',
 };
 
 export default class App extends Component {
